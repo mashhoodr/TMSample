@@ -1,0 +1,714 @@
+{
+    "assets": [
+        {
+            "asset": "Resources/Lato-BoldItalic.ttf", 
+            "target": "Lato-BoldItalic.ttf"
+        }, 
+        {
+            "asset": "Resources/original@2x.png", 
+            "target": "original@2x.png"
+        }, 
+        {
+            "asset": "Resources/introBg@2x.png", 
+            "target": "introBg@2x.png"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }, 
+        {
+            "asset": "Resources/Lato-Italic.ttf", 
+            "target": "Lato-Italic.ttf"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/AMSlideOut/iconSlide@2x.png", 
+            "target": "iconSlide@2x.png"
+        }, 
+        {
+            "asset": "Resources/Lato-Black.ttf", 
+            "target": "Lato-Black.ttf"
+        }, 
+        {
+            "asset": "Resources/Lato-Light.ttf", 
+            "target": "Lato-Light.ttf"
+        }, 
+        {
+            "asset": "Resources/Lato-Hairline.ttf", 
+            "target": "Lato-Hairline.ttf"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/AMSlideOut/iconSlideBlack@2x.png", 
+            "target": "iconSlideBlack@2x.png"
+        }, 
+        {
+            "asset": "Resources/supportcat@2x.png", 
+            "target": "supportcat@2x.png"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/AMSlideOut/iconSlideBlack.png", 
+            "target": "iconSlideBlack.png"
+        }, 
+        {
+            "asset": "Resources/1.png", 
+            "target": "1.png"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/en.lproj/MainStoryboard.storyboard", 
+            "target": null
+        }, 
+        {
+            "asset": "Resources/Default.png", 
+            "target": "Default.png"
+        }, 
+        {
+            "asset": "Resources/femalecodertocat@2x.png", 
+            "target": "femalecodertocat@2x.png"
+        }, 
+        {
+            "asset": "Resources/Lato-Bold.ttf", 
+            "target": "Lato-Bold.ttf"
+        }, 
+        {
+            "asset": "Resources/2.png", 
+            "target": "2.png"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/LocalPage.html", 
+            "target": "LocalPage.html"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/Resources/Images/sample3.jpg", 
+            "target": "sample3.jpg"
+        }, 
+        {
+            "asset": "Resources/Lato-HairlineItalic.ttf", 
+            "target": "Lato-HairlineItalic.ttf"
+        }, 
+        {
+            "asset": "Default-568h@2x.png", 
+            "target": "Default-568h@2x.png"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/Resources/Images/sample1.jpg", 
+            "target": "sample1.jpg"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/Resources/icon1.png", 
+            "target": "icon1.png"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/Resources/icon2.png", 
+            "target": "icon2.png"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/AMSlideOut/iconSlide.png", 
+            "target": "iconSlide.png"
+        }, 
+        {
+            "asset": "Resources/3.png", 
+            "target": "3.png"
+        }, 
+        {
+            "asset": "Resources/Lato-BlackItalic.ttf", 
+            "target": "Lato-BlackItalic.ttf"
+        }, 
+        {
+            "asset": "Resources/Lato-Regular.ttf", 
+            "target": "Lato-Regular.ttf"
+        }, 
+        {
+            "asset": "Resources/Default@2x.png", 
+            "target": "Default@2x.png"
+        }, 
+        {
+            "asset": "Resources/Lato-LightItalic.ttf", 
+            "target": "Lato-LightItalic.ttf"
+        }, 
+        {
+            "asset": "SlideoutStoryboardSample/Resources/Images/sample2.jpg", 
+            "target": "sample2.jpg"
+        }
+    ], 
+    "config": {
+        "APPLICATION_FULL_NAME": "TestmunkDemo", 
+        "APPLICATION_IDENTIFIER": "com.sample.TestmunkDemo", 
+        "APPLICATION_NAME": "TestmunkDemo", 
+        "LONG_VERSION": "1.0", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "TestmunkDemo", 
+            "PRODUCT_NAME": "TestmunkDemo"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 50100
+    }, 
+    "deps": [
+        "UIKit", 
+        "MapKit", 
+        "QuartzCore", 
+        "UIKit", 
+        "CoreText", 
+        "Foundation", 
+        "CoreGraphics"
+    ], 
+    "flags": [
+        "-DNS_BLOCK_ASSERTIONS=1", 
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wno-deprecated-declarations", 
+        "-Wreturn-type", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "TestmunkDemo-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "TestmunkDemo-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "TestmunkDemo-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "TestmunkDemo-project-headers.hmap", 
+            "hmap": {
+                "AGPhotoBrowserDataSource.h": {
+                    "key": "AGPhotoBrowserDataSource.h", 
+                    "prefix": "SlideoutStoryboardSample/src/", 
+                    "suffix": "AGPhotoBrowserDataSource.h"
+                }, 
+                "AGPhotoBrowserDelegate.h": {
+                    "key": "AGPhotoBrowserDelegate.h", 
+                    "prefix": "SlideoutStoryboardSample/src/", 
+                    "suffix": "AGPhotoBrowserDelegate.h"
+                }, 
+                "AGPhotoBrowserOverlayView.h": {
+                    "key": "AGPhotoBrowserOverlayView.h", 
+                    "prefix": "SlideoutStoryboardSample/src/", 
+                    "suffix": "AGPhotoBrowserOverlayView.h"
+                }, 
+                "AGPhotoBrowserView.h": {
+                    "key": "AGPhotoBrowserView.h", 
+                    "prefix": "SlideoutStoryboardSample/src/", 
+                    "suffix": "AGPhotoBrowserView.h"
+                }, 
+                "AMSlideOutGlobals.h": {
+                    "key": "AMSlideOutGlobals.h", 
+                    "prefix": "SlideoutStoryboardSample/AMSlideOut/", 
+                    "suffix": "AMSlideOutGlobals.h"
+                }, 
+                "AMSlideOutNavigationController.h": {
+                    "key": "AMSlideOutNavigationController.h", 
+                    "prefix": "SlideoutStoryboardSample/AMSlideOut/", 
+                    "suffix": "AMSlideOutNavigationController.h"
+                }, 
+                "AMSlideTableCell.h": {
+                    "key": "AMSlideTableCell.h", 
+                    "prefix": "SlideoutStoryboardSample/AMSlideOut/", 
+                    "suffix": "AMSlideTableCell.h"
+                }, 
+                "AMSlideTableHeader.h": {
+                    "key": "AMSlideTableHeader.h", 
+                    "prefix": "SlideoutStoryboardSample/AMSlideOut/", 
+                    "suffix": "AMSlideTableHeader.h"
+                }, 
+                "AMTableView.h": {
+                    "key": "AMTableView.h", 
+                    "prefix": "SlideoutStoryboardSample/AMSlideOut/", 
+                    "suffix": "AMTableView.h"
+                }, 
+                "EAIntroPage.h": {
+                    "key": "EAIntroPage.h", 
+                    "prefix": "SlideoutStoryboardSample/EAIntroView/", 
+                    "suffix": "EAIntroPage.h"
+                }, 
+                "EAIntroView.h": {
+                    "key": "EAIntroView.h", 
+                    "prefix": "SlideoutStoryboardSample/EAIntroView/", 
+                    "suffix": "EAIntroView.h"
+                }, 
+                "FUIAlertView.h": {
+                    "key": "FUIAlertView.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FUIAlertView.h"
+                }, 
+                "FUIButton.h": {
+                    "key": "FUIButton.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FUIButton.h"
+                }, 
+                "FUICellBackgroundView.h": {
+                    "key": "FUICellBackgroundView.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FUICellBackgroundView.h"
+                }, 
+                "FUIPopoverBackgroundView.h": {
+                    "key": "FUIPopoverBackgroundView.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FUIPopoverBackgroundView.h"
+                }, 
+                "FUISegmentedControl.h": {
+                    "key": "FUISegmentedControl.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FUISegmentedControl.h"
+                }, 
+                "FUISwitch.h": {
+                    "key": "FUISwitch.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FUISwitch.h"
+                }, 
+                "FUITextField.h": {
+                    "key": "FUITextField.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FUITextField.h"
+                }, 
+                "FlatUIKit.h": {
+                    "key": "FlatUIKit.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "FlatUIKit.h"
+                }, 
+                "JVFloatLabeledTextField.h": {
+                    "key": "JVFloatLabeledTextField.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "JVFloatLabeledTextField.h"
+                }, 
+                "MapVViewController.h": {
+                    "key": "MapVViewController.h", 
+                    "prefix": "./", 
+                    "suffix": "MapVViewController.h"
+                }, 
+                "MapViewAnnotation.h": {
+                    "key": "MapViewAnnotation.h", 
+                    "prefix": "./", 
+                    "suffix": "MapViewAnnotation.h"
+                }, 
+                "PXAlertView.h": {
+                    "key": "PXAlertView.h", 
+                    "prefix": "SlideoutStoryboardSample/PXAlertView/", 
+                    "suffix": "PXAlertView.h"
+                }, 
+                "PhotoViewController.h": {
+                    "key": "PhotoViewController.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "PhotoViewController.h"
+                }, 
+                "TDAppDelegate.h": {
+                    "key": "TDAppDelegate.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "TDAppDelegate.h"
+                }, 
+                "TDLoginViewController.h": {
+                    "key": "TDLoginViewController.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "TDLoginViewController.h"
+                }, 
+                "TDSliderContainerViewController.h": {
+                    "key": "TDSliderContainerViewController.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "TDSliderContainerViewController.h"
+                }, 
+                "TDTableDetailViewController.h": {
+                    "key": "TDTableDetailViewController.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "TDTableDetailViewController.h"
+                }, 
+                "TableViewController.h": {
+                    "key": "TableViewController.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "TableViewController.h"
+                }, 
+                "UIBarButtonItem+FlatUI.h": {
+                    "key": "UIBarButtonItem+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIBarButtonItem+FlatUI.h"
+                }, 
+                "UIColor+FlatUI.h": {
+                    "key": "UIColor+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIColor+FlatUI.h"
+                }, 
+                "UIFont+FlatUI.h": {
+                    "key": "UIFont+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIFont+FlatUI.h"
+                }, 
+                "UIImage+FlatUI.h": {
+                    "key": "UIImage+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIImage+FlatUI.h"
+                }, 
+                "UINavigationBar+FlatUI.h": {
+                    "key": "UINavigationBar+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UINavigationBar+FlatUI.h"
+                }, 
+                "UIPopoverController+FlatUI.h": {
+                    "key": "UIPopoverController+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIPopoverController+FlatUI.h"
+                }, 
+                "UIProgressView+FlatUI.h": {
+                    "key": "UIProgressView+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIProgressView+FlatUI.h"
+                }, 
+                "UISlider+FlatUI.h": {
+                    "key": "UISlider+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UISlider+FlatUI.h"
+                }, 
+                "UIStepper+FlatUI.h": {
+                    "key": "UIStepper+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIStepper+FlatUI.h"
+                }, 
+                "UITabBar+FlatUI.h": {
+                    "key": "UITabBar+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UITabBar+FlatUI.h"
+                }, 
+                "UITableViewCell+FlatUI.h": {
+                    "key": "UITableViewCell+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UITableViewCell+FlatUI.h"
+                }, 
+                "UIToolbar+FlatUI.h": {
+                    "key": "UIToolbar+FlatUI.h", 
+                    "prefix": "Classes/ios/", 
+                    "suffix": "UIToolbar+FlatUI.h"
+                }, 
+                "WebVViewController.h": {
+                    "key": "WebVViewController.h", 
+                    "prefix": "SlideoutStoryboardSample/", 
+                    "suffix": "WebVViewController.h"
+                }
+            }, 
+            "type": "iquote"
+        }
+    ], 
+    "infoplists": [
+        "./SlideoutStoryboardSample/TestmunkDemo-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./SlideoutStoryboardSample/TestmunkDemo-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/FUIAlertView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/FUIButton.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/FUICellBackgroundView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/FUIPopoverBackgroundView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/FUISegmentedControl.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/FUISwitch.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/FUITextField.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIBarButtonItem+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIColor+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIFont+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIImage+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UINavigationBar+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIPopoverController+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIProgressView+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UISlider+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIStepper+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UITabBar+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UITableViewCell+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "Classes/ios/UIToolbar+FlatUI.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "MapVViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "MapViewAnnotation.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/AMSlideOut/AMSlideOutGlobals.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/AMSlideOut/AMSlideOutNavigationController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/AMSlideOut/AMSlideTableCell.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/AMSlideOut/AMSlideTableHeader.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/AMSlideOut/AMTableView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/EAIntroView/EAIntroPage.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/EAIntroView/EAIntroView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/JVFloatLabeledTextField.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/PXAlertView/PXAlertView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/PhotoViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/TDAppDelegate.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/TDLoginViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/TDSliderContainerViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/TDTableDetailViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/TableViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/WebVViewController.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/main.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/src/AGPhotoBrowserOverlayView.m"
+        }, 
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "SlideoutStoryboardSample/src/AGPhotoBrowserView.m"
+        }
+    ], 
+    "type": "app", 
+    "version": "1", 
+    "xcode_project": "TestmunkDemo.xcodeproj"
+}
